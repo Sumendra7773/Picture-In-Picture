@@ -10,6 +10,12 @@
 	</head>
 	<body>
 		<!-- Video -->
+		<input
+			type="file"
+			id="video-input"
+			onchange="selectVideo()"
+			accept="video/*"
+		/>
 		<video id="Video" controls height="360" width="640" hidden></video>
 		<!-- Button -->
 		<div class="button-container">
